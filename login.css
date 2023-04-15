@@ -42,9 +42,23 @@ body {
 }
 
 @media (max-width: 575.98px) { 
+    @media (max-width: 575.98px) { 
+    .container h1 {
+        font-size: 3rem;
+        margin: 0 0 6vh 0;
+    }
     .container {
-        width: 10vw;
+        width: 90vw;
+        padding: 10% 0;
     };
+    .form-check-input {
+        margin: 0;
+    }
+    .btn-primary {
+        margin: 7vh 0 0 0;
+        height: 8vh;
+    }
+}
 }
 
 /* Small devices (phones, 576px and up) */
