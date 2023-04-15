@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to right, #ff5f6d,#ffc371);
+    text-align: center;
+}
+
+.container h1 {
+    margin: calc(2vw + 1vh); 
+}
+.container {
+    width: 35vw;
+    background: white;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+.vertical-center {
+    min-height: 100%;  
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+}
+
+.mb-3 {
+    margin: calc(2vw + 2vh) ;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+
+.form-check {
+    margin: 0.5vw 2vh;  
+}
+
+.form-check-input, .form-check-label {
+    cursor: pointer;
+}
+
+.btn-lg {
+    width: 70%;
+    margin: 5%;
+    margin-bottom: 7vh;
+}
+
+@media (max-width: 575.98px) { 
+    .container {
+        width: 80vw;
+    };
+}
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
